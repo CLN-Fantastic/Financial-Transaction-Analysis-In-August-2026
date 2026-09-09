@@ -35,7 +35,8 @@ This report provides an analytical evaluation of the August 2026 financial trans
 - **Tab 2: Risk & Exception Monitoring**: Focuses on operational governance, isolating transaction failure reasons, gateway risk scoring discrepancies, and the 9 severe ledger balance mismatches totaling GHS 89.86K.
   
 <img width="734" height="401" alt="Transaction Overview" src="https://github.com/user-attachments/assets/829d7c98-febb-4ead-92f0-c6ae30925f62" />
-<img width="734" height="401" alt="image" src="https://github.com/user-attachments/assets/71f8862c-5d9b-43a5-a741-fda914de5709" />
+<img width="734" height="401" alt="Exception   Failures" src="https://github.com/user-attachments/assets/967aa183-fd5e-4c34-845f-6551c5a44ded" />
+
 
 
 
