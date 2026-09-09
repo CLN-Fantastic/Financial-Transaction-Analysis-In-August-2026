@@ -32,6 +32,11 @@ Cleaned raw transaction records to eliminate duplicates and standardize timestam
 Modeled dimensional tables in Power BI for channels, segments, and risk scores.  
 Designed a two-tab dashboard separating executive overview KPIs from risk exception monitoring.  
 
+## Dashboard Architecture & Visual Design
+The project features a clean, dual-tab Power BI dashboard designed for executive oversight and risk control:
+* **Tab 1: Executive Overview**: Displays core KPIs (1.48K total transactions, GHS 240.06K volume, 299 unique customers) alongside interactive charts tracking daily transaction trends, volume share by payment channel, and customer segment distributions.
+* **Tab 2: Risk & Exception Monitoring**: Focuses on operational governance, isolating transaction failure reasons, gateway risk scoring discrepancies, and the 9 severe ledger balance mismatches totaling GHS 89.86K.
+
 ## Limitations
 Restricted to a single month (August 2026), preventing long-term seasonality analysis.  
 Lack of customer demographic data (such as age or occupation) to analyze spending behaviors across different age groups.  
