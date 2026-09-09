@@ -28,14 +28,11 @@ This report provides an analytical evaluation of the August 2026 financial trans
 **-Smart Gateway Routing:** Routing traffic away from high-risk gateways like MobiLink during peak volume windows.  
 
 ## Methodology
-Cleaned raw transaction records to eliminate duplicates and standardize timestamps.  
-Modeled dimensional tables in Power BI for channels, segments, and risk scores.  
-Designed a two-tab dashboard separating executive overview KPIs from risk exception monitoring.  
-
-## Dashboard Architecture & Visual Design
-The project features a clean, dual-tab Power BI dashboard designed for executive oversight and risk control:
-* **Tab 1: Executive Overview**: Displays core KPIs (1.48K total transactions, GHS 240.06K volume, 299 unique customers) alongside interactive charts tracking daily transaction trends, volume share by payment channel, and customer segment distributions.
-* **Tab 2: Risk & Exception Monitoring**: Focuses on operational governance, isolating transaction failure reasons, gateway risk scoring discrepancies, and the 9 severe ledger balance mismatches totaling GHS 89.86K.
+1. Cleaned raw transaction records to eliminate duplicates and standardize timestamps.
+2. Modeled dimensional tables in Power BI for channels, segments, and risk scores using a relational star schema.
+3. Designed a clean, dual-tab Power BI dashboard designed for executive oversight and risk exception monitoring:
+- **Tab 1: Executive Overview**: Displays core KPIs (1.48K total transactions, GHS 240.06K volume, 299 unique customers) alongside interactive charts tracking daily transaction trends, volume share by payment channel, and customer segment distributions.
+- **Tab 2: Risk & Exception Monitoring**: Focuses on operational governance, isolating transaction failure reasons, gateway risk scoring discrepancies, and the 9 severe ledger balance mismatches totaling GHS 89.86K.
 
 ## Limitations
 Restricted to a single month (August 2026), preventing long-term seasonality analysis.  
