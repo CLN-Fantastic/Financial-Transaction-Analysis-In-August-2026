@@ -1,4 +1,4 @@
-# Financial-Transaction-Analysis-In-August
+# Financial-Transaction-Analysis-In-August 2026
 
 ## Project Overview
 This project delivers a comprehensive data analytics and visualization solution for evaluating financial transaction logs from August 2026. Utilizing Power BI, the project implements a robust relational star schema to separate core operational metrics from risk-based exception monitoring. The analysis uncovers key transaction trends, payment channel dominances, customer segment behaviors, system friction points, and critical ledger anomalies to provide actionable business intelligence for operations and risk management teams.
